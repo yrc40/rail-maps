@@ -9,7 +9,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
  
  
 class BaseConfig:  # basic configuration
-    SECRET_KEY = 'THIS IS MAX'
+    SECRET_KEY = 'yrc400'
     PERMANENT_SESSION_LIFETIME = datetime.timedelta(days=14)
  
 class DevelopmentConfig(BaseConfig):
