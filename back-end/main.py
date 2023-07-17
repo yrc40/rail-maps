@@ -1,4 +1,8 @@
-from flask import Flask
+from app import create_app
+ 
+app = create_app('development')
+
+'''from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
@@ -10,4 +14,4 @@ def yrc():
     return "I am a dog!"
 
 if __name__ == "__main__":
-    app.run()
+    app.run()'''
